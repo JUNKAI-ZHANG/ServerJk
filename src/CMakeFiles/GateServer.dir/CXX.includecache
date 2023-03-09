@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ops/CodeHome/ServerJk/src/MyHeader/./Epoll.h
+/home/jk/CodeHome/ServerJk/src/MyHeader/./Epoll.h
 fcntl.h
 -
 unistd.h
@@ -30,11 +30,11 @@ sys/socket.h
 netinet/in.h
 -
 
-/home/ops/CodeHome/ServerJk/src/MyHeader/./RingBuffer.h
+/home/jk/CodeHome/ServerJk/src/MyHeader/./RingBuffer.h
 stdint.h
 -
 
-/home/ops/CodeHome/ServerJk/src/MyHeader/Epoll.h
+/home/jk/CodeHome/ServerJk/src/MyHeader/Epoll.h
 fcntl.h
 -
 unistd.h
@@ -58,19 +58,19 @@ sys/socket.h
 netinet/in.h
 -
 
-/home/ops/CodeHome/ServerJk/src/MyHeader/Server.h
+/home/jk/CodeHome/ServerJk/src/MyHeader/Server.h
 map
 -
 ./Epoll.h
-/home/ops/CodeHome/ServerJk/src/MyHeader/./Epoll.h
+/home/jk/CodeHome/ServerJk/src/MyHeader/./Epoll.h
 ./RingBuffer.h
-/home/ops/CodeHome/ServerJk/src/MyHeader/./RingBuffer.h
+/home/jk/CodeHome/ServerJk/src/MyHeader/./RingBuffer.h
 
-/home/ops/CodeHome/ServerJk/src/Server/GateServer/GateServer.cpp
+/home/jk/CodeHome/ServerJk/src/Server/GateServer/GateServer.cpp
 iostream
 -
 ../../MyHeader/Epoll.h
-/home/ops/CodeHome/ServerJk/src/MyHeader/Epoll.h
+/home/jk/CodeHome/ServerJk/src/MyHeader/Epoll.h
 ../../MyHeader/Server.h
-/home/ops/CodeHome/ServerJk/src/MyHeader/Server.h
+/home/jk/CodeHome/ServerJk/src/MyHeader/Server.h
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ops/CodeHome/ServerJk/src/Server/GateServer/GateServer.cpp" "/home/ops/CodeHome/ServerJk/src/CMakeFiles/GateServer.dir/Server/GateServer/GateServer.cpp.o"
+  "/home/jk/CodeHome/ServerJk/src/Server/GateServer/GateServer.cpp" "/home/jk/CodeHome/ServerJk/src/CMakeFiles/GateServer.dir/Server/GateServer/GateServer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,5 +15,5 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ops/CodeHome/ServerJk/src/CMakeFiles/common_lib.dir/DependInfo.cmake"
+  "/home/jk/CodeHome/ServerJk/src/CMakeFiles/common_lib.dir/DependInfo.cmake"
   )

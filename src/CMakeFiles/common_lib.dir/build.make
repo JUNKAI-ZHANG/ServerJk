@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ops/CodeHome/ServerJk
+CMAKE_SOURCE_DIR = /home/jk/CodeHome/ServerJk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ops/CodeHome/ServerJk/src
+CMAKE_BINARY_DIR = /home/jk/CodeHome/ServerJk/src
 
 # Include any dependencies generated for this target.
 include CMakeFiles/common_lib.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/common_lib.dir/flags.make
 
 CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.o: CMakeFiles/common_lib.dir/flags.make
 CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.o: Protobuf/MessageProto.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ops/CodeHome/ServerJk/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.o -c /home/ops/CodeHome/ServerJk/src/Protobuf/MessageProto.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jk/CodeHome/ServerJk/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.o -c /home/jk/CodeHome/ServerJk/src/Protobuf/MessageProto.pb.cc
 
 CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ops/CodeHome/ServerJk/src/Protobuf/MessageProto.pb.cc > CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jk/CodeHome/ServerJk/src/Protobuf/MessageProto.pb.cc > CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.i
 
 CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ops/CodeHome/ServerJk/src/Protobuf/MessageProto.pb.cc -o CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jk/CodeHome/ServerJk/src/Protobuf/MessageProto.pb.cc -o CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.s
 
 CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/common_lib.dir/Protobuf/MessageProto.pb.cc.o.provides.build: CMakeFil
 
 CMakeFiles/common_lib.dir/Tool/Epoll.cpp.o: CMakeFiles/common_lib.dir/flags.make
 CMakeFiles/common_lib.dir/Tool/Epoll.cpp.o: Tool/Epoll.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ops/CodeHome/ServerJk/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/common_lib.dir/Tool/Epoll.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common_lib.dir/Tool/Epoll.cpp.o -c /home/ops/CodeHome/ServerJk/src/Tool/Epoll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jk/CodeHome/ServerJk/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/common_lib.dir/Tool/Epoll.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common_lib.dir/Tool/Epoll.cpp.o -c /home/jk/CodeHome/ServerJk/src/Tool/Epoll.cpp
 
 CMakeFiles/common_lib.dir/Tool/Epoll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common_lib.dir/Tool/Epoll.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ops/CodeHome/ServerJk/src/Tool/Epoll.cpp > CMakeFiles/common_lib.dir/Tool/Epoll.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jk/CodeHome/ServerJk/src/Tool/Epoll.cpp > CMakeFiles/common_lib.dir/Tool/Epoll.cpp.i
 
 CMakeFiles/common_lib.dir/Tool/Epoll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common_lib.dir/Tool/Epoll.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ops/CodeHome/ServerJk/src/Tool/Epoll.cpp -o CMakeFiles/common_lib.dir/Tool/Epoll.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jk/CodeHome/ServerJk/src/Tool/Epoll.cpp -o CMakeFiles/common_lib.dir/Tool/Epoll.cpp.s
 
 CMakeFiles/common_lib.dir/Tool/Epoll.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/common_lib.dir/Tool/Epoll.cpp.o.provides.build: CMakeFiles/common_lib
 
 CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.o: CMakeFiles/common_lib.dir/flags.make
 CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.o: Tool/FunctionUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ops/CodeHome/ServerJk/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.o -c /home/ops/CodeHome/ServerJk/src/Tool/FunctionUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jk/CodeHome/ServerJk/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.o -c /home/jk/CodeHome/ServerJk/src/Tool/FunctionUtil.cpp
 
 CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ops/CodeHome/ServerJk/src/Tool/FunctionUtil.cpp > CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jk/CodeHome/ServerJk/src/Tool/FunctionUtil.cpp > CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.i
 
 CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ops/CodeHome/ServerJk/src/Tool/FunctionUtil.cpp -o CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jk/CodeHome/ServerJk/src/Tool/FunctionUtil.cpp -o CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.s
 
 CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/common_lib.dir/Tool/FunctionUtil.cpp.o.provides.build: CMakeFiles/com
 
 CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.o: CMakeFiles/common_lib.dir/flags.make
 CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.o: Tool/RingBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ops/CodeHome/ServerJk/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.o -c /home/ops/CodeHome/ServerJk/src/Tool/RingBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jk/CodeHome/ServerJk/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.o -c /home/jk/CodeHome/ServerJk/src/Tool/RingBuffer.cpp
 
 CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ops/CodeHome/ServerJk/src/Tool/RingBuffer.cpp > CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jk/CodeHome/ServerJk/src/Tool/RingBuffer.cpp > CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.i
 
 CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ops/CodeHome/ServerJk/src/Tool/RingBuffer.cpp -o CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jk/CodeHome/ServerJk/src/Tool/RingBuffer.cpp -o CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.s
 
 CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.o.provides.build: CMakeFiles/commo
 
 CMakeFiles/common_lib.dir/Tool/Server.cpp.o: CMakeFiles/common_lib.dir/flags.make
 CMakeFiles/common_lib.dir/Tool/Server.cpp.o: Tool/Server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ops/CodeHome/ServerJk/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/common_lib.dir/Tool/Server.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common_lib.dir/Tool/Server.cpp.o -c /home/ops/CodeHome/ServerJk/src/Tool/Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jk/CodeHome/ServerJk/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/common_lib.dir/Tool/Server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common_lib.dir/Tool/Server.cpp.o -c /home/jk/CodeHome/ServerJk/src/Tool/Server.cpp
 
 CMakeFiles/common_lib.dir/Tool/Server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common_lib.dir/Tool/Server.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ops/CodeHome/ServerJk/src/Tool/Server.cpp > CMakeFiles/common_lib.dir/Tool/Server.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/jk/CodeHome/ServerJk/src/Tool/Server.cpp > CMakeFiles/common_lib.dir/Tool/Server.cpp.i
 
 CMakeFiles/common_lib.dir/Tool/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common_lib.dir/Tool/Server.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ops/CodeHome/ServerJk/src/Tool/Server.cpp -o CMakeFiles/common_lib.dir/Tool/Server.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/jk/CodeHome/ServerJk/src/Tool/Server.cpp -o CMakeFiles/common_lib.dir/Tool/Server.cpp.s
 
 CMakeFiles/common_lib.dir/Tool/Server.cpp.o.requires:
 
@@ -195,7 +195,7 @@ lib/libcommon_lib.a: CMakeFiles/common_lib.dir/Tool/RingBuffer.cpp.o
 lib/libcommon_lib.a: CMakeFiles/common_lib.dir/Tool/Server.cpp.o
 lib/libcommon_lib.a: CMakeFiles/common_lib.dir/build.make
 lib/libcommon_lib.a: CMakeFiles/common_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ops/CodeHome/ServerJk/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library lib/libcommon_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jk/CodeHome/ServerJk/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library lib/libcommon_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/common_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -217,6 +217,6 @@ CMakeFiles/common_lib.dir/clean:
 .PHONY : CMakeFiles/common_lib.dir/clean
 
 CMakeFiles/common_lib.dir/depend:
-	cd /home/ops/CodeHome/ServerJk/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ops/CodeHome/ServerJk /home/ops/CodeHome/ServerJk /home/ops/CodeHome/ServerJk/src /home/ops/CodeHome/ServerJk/src /home/ops/CodeHome/ServerJk/src/CMakeFiles/common_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jk/CodeHome/ServerJk/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jk/CodeHome/ServerJk /home/jk/CodeHome/ServerJk /home/jk/CodeHome/ServerJk/src /home/jk/CodeHome/ServerJk/src /home/jk/CodeHome/ServerJk/src/CMakeFiles/common_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/common_lib.dir/depend
 
