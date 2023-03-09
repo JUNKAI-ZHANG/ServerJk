@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/GateServer.dir/Server/GateServer/GateServer.cpp.o  -o GateServer  -L/usr/lib64/mysql -rdynamic -lprotobuf -lpthread -lmysqlclient -lhiredis lib/libcommon_lib.a -Wl,-rpath,/usr/lib64/mysql 

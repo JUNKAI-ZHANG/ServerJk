@@ -1,0 +1,2 @@
+/home/ops/CodeHome/ServerJk/src/CMakeFiles/GateServer.dir
+/home/ops/CodeHome/ServerJk/src/CMakeFiles/common_lib.dir
